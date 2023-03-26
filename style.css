@@ -5,3 +5,7 @@ h1{
     color: white;
     font-family: sans-serif;
 }
+h2 +  h3 + p {
+    color: #ff1b68;
+    background-color: red;
+}
