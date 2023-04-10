@@ -1,3 +1,7 @@
+body{
+   
+margin: 0;
+}
 section{
     background-color: #ff1b68;
 }
@@ -5,8 +9,6 @@ h1{
     color: white;
     font-family: sans-serif;
 }
-div > p {
-    background-color: #ff1b68;
-    color: green;
-    font-style: italic;
+h2{
+   margin: 40px ;
 }
