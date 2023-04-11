@@ -9,6 +9,9 @@ body{
     background-color: #2ddf5c;
     padding: 8px 16px;
 }
+.main-nav__item{
+    display: inline-block;
+}
 section{
     background-color: #ff1b68;
     width: 100%;
