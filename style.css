@@ -1,14 +1,24 @@
+*{
+    box-sizing: border-box;
+}
 body{
    
 margin: 0;
 }
 section{
     background-color: #ff1b68;
+    width: 100%;
+    height: 100px ;
+    padding: 10px ;
+    border: 2px solid black ;
+    /* margin: 12px ; */
+    
 }
 h1{
     color: white;
     font-family: sans-serif;
+    
 }
 h2{
-   margin: 40px ;
+   margin: 20px ;
 }
