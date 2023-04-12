@@ -11,6 +11,8 @@ body{
     width: 100%;
     background-color: #2ddf5c;
     padding: 8px 16px;
+    position: fixed;
+    top: 0;
 }
 
 .main-nav__item {
