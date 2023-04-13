@@ -73,7 +73,7 @@ body{
 }
 
 .product-overview {
-    background-image: url(images/freedom.jpg);
+    background-image: linear-gradient(to top , rgba(80 , 68 , 18 , 0.6 ) 10% , transparent ) , url(images/freedom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left 10% bottom 20% ;
