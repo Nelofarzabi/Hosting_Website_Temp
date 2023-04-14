@@ -45,7 +45,7 @@ body{
 }
 
 .main-nav__item a  {
-    margin: 0 16px ;
+    margin: 0 1rem ;
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
@@ -72,7 +72,7 @@ body{
     background-color: white;
 }
 .testimonial {
-    font-size: 20px;
+    font-size: 1.2rem;
     margin: 48px 0;
   }
   
@@ -87,6 +87,7 @@ body{
 
   .testimonial__image-container {
     width: 65%;
+    max-width: 580px;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
@@ -116,11 +117,12 @@ body{
   .testimonial__name {
     margin: 3px;
     color: #ff5454;
+    font-size: 2em;
   }
   
   .testimonial__subtitle {
     margin: 0;
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #ccc;
   }
   
