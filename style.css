@@ -111,13 +111,15 @@ body{
     margin: 9px  0 ;
     display: block;
     width: 100%;
-    vertical-align: middle;
 }
 
 @media (min-width: 642px) {
     .plan {
     display: inline-block;
     width: 30%;
+    vertical-align: middle;
+    min-width: 10.5rem;
+    max-width: 25rem;
     }
 
     .plans__list {
@@ -127,6 +129,10 @@ body{
 
     .plan__annotation {
         font-size: 13px;
+    }
+
+    .plan--highlighted {
+        box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
     }
 }
 
@@ -141,7 +147,6 @@ body{
 .plan--highlighted {
     background-color: #19b84c;
     color: white;
-    /* box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5); */
 }
 
 .plan__features {
