@@ -42,6 +42,7 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: none;
 }
 
 .main-nav__item a  {
@@ -195,6 +196,9 @@ body{
 }
 
 @media (min-width: 642px) {
+  .main-nav__items{
+    display: block;
+}
   .testimonial {
     margin: 3rem 3rem;
     max-width: 1500px;

@@ -42,6 +42,7 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: none;
 }
 
 .main-nav__item a  {
@@ -84,12 +85,20 @@ body{
     padding: 10px;
 }
 
-@media  (min-width: 642px) and (min-height: 60rem ) {
+@media  (min-width: 642px) and (min-height: 40rem ) {
+    .main-header {
+        display: block;
+    }
+
     .product-overview {
         height: 70vh;
         background-position: 50% 25% ;
        
     } 
+
+    .main-nav__items{
+        display: block;
+    }
 }
 
 
