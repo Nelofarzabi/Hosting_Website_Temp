@@ -115,6 +115,13 @@ body{
     color: white;
     background-color: #ff5454;
     padding: 1rem;
+    display: none;
+}
+
+@media (min-width: 642px){
+    .package__badge {
+       display: block;
+    }
 }
 
 .package__subtitle {
