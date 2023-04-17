@@ -84,7 +84,7 @@ body{
     padding: 10px;
 }
 
-@media  (min-width: 642px) {
+@media  (min-width: 642px) and (min-height: 60rem ) {
     .product-overview {
         height: 70vh;
         background-position: 50% 25% ;
