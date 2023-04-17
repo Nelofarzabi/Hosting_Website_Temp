@@ -199,6 +199,7 @@ body{
 #feature-key {
     background-color: #ff1b68;
     margin-top: 80px;
+    height: 740px ;
 }
 
 #feature-key .section-title {
@@ -216,8 +217,23 @@ body{
 }
 
 .feature-key__element {
-    display: inline-block;
-    width: 30%;
+    display: block;
+    width: 100%;
+   
+}
+
+@media (min-width: 642px){
+    .feature-key__element {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        max-width: 25rem;
+    }
+
+    #feature-key {
+        height: 330px;
+    }
+    
 }
 
 .feature-text {
