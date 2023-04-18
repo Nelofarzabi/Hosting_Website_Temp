@@ -31,7 +31,6 @@ body{
     color: #0e4f1f;
     font-size: 20px;
 }
-
 .main-nav {
     display: inline-block;
     text-align: right;
@@ -86,6 +85,20 @@ body{
     padding: 10px;
 }
 
+@media  (min-width: 642px) {
+
+    .product-overview {
+        height: 70vh;
+        background-position: 50% 25% ;
+       
+    } 
+
+    .main-nav__items{
+        display: block;
+    }
+}
+
+
 .section-title {
     color: #0e4f1f;
     text-align: center;
@@ -104,6 +117,29 @@ body{
     margin: 9px  0 ;
     display: block;
     width: 100%;
+}
+
+@media (min-width: 642px) {
+    .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 10.5rem;
+    max-width: 25rem;
+    }
+
+    .plans__list {
+        width: 80%;
+        margin: 0 auto ;
+    }
+
+    .plan__annotation {
+        font-size: 13px;
+    }
+
+    .plan--highlighted {
+        box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+    }
 }
 
 .plan__annotation {
@@ -192,6 +228,20 @@ body{
    
 }
 
+@media (min-width: 642px){
+    .feature-key__element {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        max-width: 25rem;
+    }
+
+    #feature-key {
+        height: 330px;
+    }
+    
+}
+
 .feature-text {
     color: white;
     font-weight: bold;
@@ -238,54 +288,4 @@ body{
 
 
 /* Media Quryies  */
-
-@media  (min-width: 642px) and (min-height: 40rem ) {
-    .main-header {
-        display: block;
-    }
-
-    .product-overview {
-        height: 70vh;
-        background-position: 50% 25% ;
-       
-    } 
-
-    .main-nav__items{
-        display: block;
-    }
-
-    .plan {
-        display: inline-block;
-        width: 30%;
-        vertical-align: middle;
-        min-width: 10.5rem;
-        max-width: 25rem;
-        }
-    
-    .plans__list {
-            width: 80%;
-            margin: 0 auto ;
-        }
-    
-    .plan__annotation {
-            font-size: 13px;
-        }
-    
-    .plan--highlighted {
-            box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
-        }
-        .feature-key__element {
-            display: inline-block;
-            width: 30%;
-            vertical-align: top;
-            max-width: 25rem;
-        }
-    
-        #feature-key {
-            height: 330px;
-        }
-    }
-    
-
-
 
