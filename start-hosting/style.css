@@ -83,6 +83,14 @@ main {
     color: #ff5454;
 }
 
+.signup-form {
+    padding: 1rem;
+}
+
+.signup-form label {
+    font-weight: bold;
+}
+
 .signup-form label , 
 .signup-form input , 
 .signup-form select {
@@ -97,7 +105,10 @@ main {
     width: auto;
 }
 
-
+.signup-form button[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+}
 
 
 
