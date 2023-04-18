@@ -73,6 +73,32 @@ body{
     background-color: white;
 }
 
+main {
+     padding-top: 3rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
+}
+
+.signup-form label , 
+.signup-form input , 
+.signup-form select {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
 .button {
     background-color: #0e4f1f;
     color: white;
