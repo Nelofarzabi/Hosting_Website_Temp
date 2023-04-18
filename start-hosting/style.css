@@ -171,4 +171,8 @@ main {
     .main-nav__items{
     display: block;
 }
+    .signup-form {
+        margin: auto;
+        width: 25rem ;
+    }
 }
