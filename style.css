@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+   font-family: sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* .main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+.main-header__brand {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e4f1f;
+    font-size: 20px;
+}
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100%  - 66px );
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+.main-nav__item a  {
+    margin: 0 16px ;
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item--cta  a {
+    background-color: #ff1b68;
+    padding: 8px 16px ;
+    border-radius: 8px;
+    color: white;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.main-nav__item--cta  a:hover ,
+.main-nav__item--cta  a:active {
+    border-bottom: none;
+    color: #ff1b68;
+    background-color: white;
+}
+
+.product-overview {
+    background-image: linear-gradient(to top , rgba(80 , 68 , 18 , 0.6 ) 10% , transparent ) , url(images/freedom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-clip: border-box;
+    width: 100%;
+    height: 50%;
+    padding: 2px;
+}
+
+@media  (min-width: 642px) {
+
+    .product-overview {
+        height: 90vh;
+        background-position: 50% 25%;
+    } 
+
+    .main-nav__items{
+        display: block;
+    }
+}
+
+
+.section-title {
+    color: #0e4f1f;
+    text-align: center;
+}
+
+.plans__list {
+    width: 100%;
+    text-align: center;
+}
+
+.plan {
+    background-color: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 9px  0 ;
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 642px) {
+    .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 10.5rem;
+    max-width: 25rem;
+    }
+
+    .plans__list {
+        width: 80%;
+        margin: 0 auto ;
+    }
+
+    .plan__annotation {
+        font-size: 13px;
+    }
+
+    .plan--highlighted {
+        box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+    }
+}
+
+.plan__annotation {
+    background-color: white;
+    color: #0e4f1f;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+    border-radius: 8px;
+}
+
+.plan--highlighted {
+    background-color: #19b84c;
+    color: white;
+}
+
+.plan__features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan__feature {
+    margin: 8px 0;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan--highlighted .plan__title {
+     color: white;
+}
+
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover , 
+.button:active {
+    background-color: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#feature-key {
+    background-color: #ff1b68;
+    margin-top: 80px;
+    height: 740px ;
+}
+
+#feature-key .section-title {
+    color: white;
+    margin: 32px;
+    padding: 30px;
+}
+
+.feature-key__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+.feature-key__element {
+    display: block;
+    width: 100%;
+   
+}
+
+@media (min-width: 642px){
+    .feature-key__element {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        max-width: 25rem;
+    }
+
+    #feature-key {
+        height: 330px;
+    }
+    
+}
+
+.feature-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.feature-key__img {
+    background-color: #ffcede;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #424242;
+    margin: 0 auto;
+}
+
+.main-footer {
+    background-color: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link {
+    margin: 0 16px;
+}
+
+.main-footer__link a:hover , 
+.main-footer__link a:active {
+    color: #ccc;
+}
+
+
+/* Media Quryies  */
+
