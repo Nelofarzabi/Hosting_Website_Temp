@@ -18,7 +18,6 @@ Run the command below from the terminal
 ## Built With
 
 - Html & Css
-- JavaScript
 
 ## Author
 
